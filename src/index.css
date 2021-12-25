@@ -1,10 +1,10 @@
 html,
 body {
   margin: 0;
-  font-family: Inter, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background: #AA8D71;
   color: #fff;
   overflow-x: hidden;
 }
@@ -22,6 +22,9 @@ h1 {
   }
 }
 
+p {
+  font-size: 2rem;
+}
 .unsupported-network {
   width: 340px;
   max-width: 100%;
@@ -93,7 +96,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: #000;
 }
 
 .member-page form .card > div {
@@ -106,12 +109,16 @@ h1 {
   text-align: center;
 }
 
+#sourdough {
+  height: 250px;
+  width: auto;
+}
+
 .card {
-  background-color: #fff;
+  background-color: #D7C8BB;
   padding: 1rem;
   border-radius: 1rem;
   color: #000;
-  box-shadow: 3.1px 6.2px 6.2px hsl(0deg 0% 0% / 0.4);
 }
 
 button {
