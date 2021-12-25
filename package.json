@@ -2,8 +2,8 @@
   "name": "mydao",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": ">=14.0"
+    "engines": {
+    "node": ">=14.0.0"
   },
   "dependencies": {
     "@3rdweb/hooks": "^1.6.0",
